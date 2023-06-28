@@ -1,0 +1,28 @@
+{
+  "name": "estadiosdeluruguayapi",
+  "version": "1.0.0",
+  "author": "Nicolás Batista Piñeyro",
+  "homepage": "https://nicolasbatista.netlify.app/",
+  "description": "Estadios del Uruguay API Express.js",
+  "main": "index.js",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon --exec npm run start"
+  },
+  "engines": {
+    "node": "18.12.1"
+  },
+  "keywords": [
+    "Estadios",
+    "Uruguay"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.18.2"
+  },
+  "devDependencies": {
+    "nodemon": "^1.19.4"
+  }
+}
