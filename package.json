@@ -1,0 +1,25 @@
+{
+  "name": "estadiosdeluruguayapi",
+  "version": "1.0.0",
+  "author": "Nicolás Batista Piñeyro",
+  "homepage": "https://nicolas5746dev.vercel.app/",
+  "description": "Estadios del Uruguay API Express.js",
+  "main": "index.js",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon --exec npm run start"
+  },
+  "keywords": [
+    "Estadios",
+    "Uruguay"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.21.1"
+  },
+  "devDependencies": {
+    "nodemon": "^1.19.4"
+  }
+}
